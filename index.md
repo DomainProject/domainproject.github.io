@@ -1,15 +1,8 @@
 ---
 layout: index
-title: "Hello World!"
+title: "Home"
 landing: true
 ---
 
-## Ultime comunicazioni
+The research project "DOMAIN: Taming Heterogeneous Computing Complexity with Full-Stack Governance of Domain-Specific Languages" aims to address the growing complexity in computing hardware architectures. With the transition to heterogeneous systems combining general-purpose and specialized computing units, the project focuses on developing high-level, semantically-rich abstractions that are accessible and efficient for domain experts across various fields. By exploring Domain-Specific Languages (DSLs) and creating new compiling toolchains, software runtime environments, and operating system supports, the project seeks to optimize large-scale heterogeneous platforms. The goal is to allow domain experts to efficiently code applications, leveraging the full potential of these complex architectures with minimal technical involvement.
 
-{% for post in site.posts limit:site.news-in-home %}
-  <article>
-    <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%d/%m/%y" }}</time> - <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-  </article>
-{% endfor %}
-
-Visualizza tutte le [{{ site.posts | size }} comunicazioni]({{ site.url }}{{ site.baseurl }}/comunicazioni/).
