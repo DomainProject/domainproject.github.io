@@ -18,10 +18,20 @@
 
     <!-- Header -->
     <section id="header">
+
+	<!-- PRIN stuff -->
+	<div class="row">
+	    <div class="col-2"></div>
+	    <div class="col-3"><img src="{{ "assets/images/nextgeneu.png" | relative_url }}" style="width:100%" alt="Finanziato da NextGenEU"/><br/></div>
+	    <div class="col-2"><img src="{{ "assets/images/mur.jpg" | relative_url }}" style="width:100%" alt="Ministero dell'Università e della Ricerca"/><br/></div>
+	    <div class="col-2"><img src="{{ "assets/images/italiadomani.png" | relative_url }}" style="width:100%" alt="ItaliaDomani"/><br/></div>
+	    <div class="col-1"><img src="{{ "assets/images/domain.png" | relative_url }}" style="width:100%" alt="{{site.title }}" /><br/></div>
+	    <div class="col-2"></div>
+	</div>
         <!-- Logo -->
         <h1>
             <a href="{% link index.md %}">
-                <img src="{{ "assets/images/logo.png" | relative_url }}" alt="{{site.title }}" /><br/>
+                
                 {{ site.title }}
             </a>
         </h1>

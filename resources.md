@@ -1,6 +1,6 @@
 ---
 layout: base
-title: "Resources"
+title: "Results"
 ---
 
 ## Publications
